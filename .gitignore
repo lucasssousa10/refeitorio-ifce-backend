@@ -1,0 +1,9 @@
+venv/*
+*pycache__/*
+migrations/*
+*.pyc
+app/controllers/__pycache__/*
+app/models/__pycache__/*
+app/validators/__pycache__/*
+.idea/*
+config.py
