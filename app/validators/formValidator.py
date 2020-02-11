@@ -240,7 +240,7 @@ class FormValidator:
 
     # --------------------------------------------------------------------------------------------------#
 
-    def CpfValidate(self, cpf):
+    def cpfValidate(self, cpf):
         cpf_invalidos = [11 * str(i) for i in range(10)]
 
         if cpf in cpf_invalidos:

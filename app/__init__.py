@@ -25,10 +25,13 @@ from app.models.controllersTable import Controller
 from app.models.actionsTable import Action
 from app.models.resourcesTable import Resource
 from app.models.privilegesTable import Privilege
+from app.models.servidorTable import Servidor
 
 from app.validators.formValidator import FormValidator
 from app.validators.authValidator import AuthValidator
 from app.validators.userValidator import UserValidator
+from app.validators.servidorValidator import ServidorValidator
 
 from app.controllers import usersController
 from app.controllers import authController
+from app.controllers import servidorController

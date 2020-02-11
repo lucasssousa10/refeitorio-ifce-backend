@@ -11,6 +11,7 @@ class User(db.Model):
     email = db.Column(db.String(255), nullable=True)
     role_id = db.Column(db.Integer, db.ForeignKey("roles.id"), nullable=False)
 
+    servidor = db.relationship("Servidor", backref="users", lazy=True)
     # --------------------------------------------------------------------------------------------------#
 
     def __init__(self, username, password, email, role_id):

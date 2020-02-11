@@ -6,7 +6,7 @@ DEBUG = True
 
 #--------------------------------------------------------------------------------------------------#
 
-SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:root@localhost/site'
+SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:root@localhost/refeitorio-ifce'
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 #--------------------------------------------------------------------------------------------------#
